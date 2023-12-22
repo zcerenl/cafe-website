@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 20px 25px; 
+}
+
+nav {
+    display: inline;
+    width: calc(100% - 103px);
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{  
+    display: inline-block;
+    margin: 10px 25px; 
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#section-1{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(hamburger.jpg);
+    background-position: top;
+    padding: 12px;
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.btn-1{
+    margin-left: 37%;
+    margin-bottom: 20%;
+    background-color: rgb(160, 54, 54);
+    color: white;
+    padding: 25px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: color 1s;
+
+}
+
+.btn-1:hover{
+    color: black;
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+
+.card{
+    width: 20%;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.4);
+    border-radius: 6px;
+}
+
+.card:hover{
+    opacity: 0.7;
+}
+
+.container{
+    padding: 5px 20px;
+}
+
+.container p{
+    margin: 15px 0;
+}
+
+img{
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+}
+
+p{
+    font-size: 19px;
+
+}
+
+#section-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+
+
+
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+
+} 
